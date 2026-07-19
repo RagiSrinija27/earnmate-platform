@@ -4,7 +4,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import PopularServices from "./components/PopularServices/PopularServices";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
-import Stats from "./components/Stats/Stats";
+import Footer from "./components/Footer/Footer";
+
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Hero />
       <PopularServices />
       <WhyChooseUs />
-      <Stats />
+      <Footer />
+      
     </>
   );
 }
