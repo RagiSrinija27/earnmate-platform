@@ -3,10 +3,9 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <header className="navbar">
-
-      <div className="logo">
-        EarnMate
-      </div>
+      <a href="#" className="logo">
+         EarnMate
+      </a>
 
       <nav className="nav-links">
         <a href="#">Home</a>
