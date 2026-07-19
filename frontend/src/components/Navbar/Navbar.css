@@ -44,9 +44,14 @@
 
     transition: 0.3s ease;
 }
-
+n
 .logo:hover {
     color: #8FAE8A;
+}
+.logo img{
+    height:110px;
+    width:auto;
+    display:block;
 }
 
 /* ===========================

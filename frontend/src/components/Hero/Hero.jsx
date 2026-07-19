@@ -1,15 +1,19 @@
 import "./Hero.css";
+import heroImage from "../../assets/images/hero.png";
 
 function Hero() {
   return (
     <section className="hero">
-
       <div className="hero-content">
 
+        <div className="hero-badge">
+          🛡 Trusted by Students & Communities
+        </div>
+
         <h1>
-          Helping Students Grow.
+          Helping <span>Students</span> Grow.
           <br />
-          Helping Communities Thrive.
+          Helping <span>Communities</span> Thrive.
         </h1>
 
         <p>
@@ -19,7 +23,6 @@ function Hero() {
         </p>
 
         <div className="hero-buttons">
-
           <button className="primary-btn">
             Find Assistance
           </button>
@@ -27,19 +30,19 @@ function Hero() {
           <button className="secondary-btn">
             Become a Student Assistant
           </button>
+        </div>
 
+        <div className="hero-features">
+          <div>✔ Safe & Verified</div>
+          <div>💰 Affordable</div>
+          <div>🤝 Reliable Support</div>
         </div>
 
       </div>
 
       <div className="hero-image">
-
-        <div className="image-placeholder">
-          Illustration Coming Soon
-        </div>
-
+        <img src={heroImage} alt="EarnMate Hero" />
       </div>
-
     </section>
   );
 }
